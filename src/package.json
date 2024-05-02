@@ -1,0 +1,23 @@
+{
+  "name": "gherkin-to-ts",
+  "version": "1.0.0",
+  "description": "Convert Gherkin feature files to TypeScript step definitions.",
+  "main": "src/index.js",
+  "bin": {
+    "gherkin-to-ts": "src/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khlifi-instadeep/Gherkin2TS.git"
+  },
+  "keywords": ["gherkin", "cucumber", "typescript"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
